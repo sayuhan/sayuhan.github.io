@@ -1,0 +1,35 @@
+@charset "utf-8";
+
+#title{
+    color: #4b0082
+}
+#top{
+    color: #0086f9;
+}
+.yer{
+    font-size: 50px;
+    border: 2px solid #000000;
+    border-radius: 4px;
+    background: linear-gradient(0deg,#FFFFFF,#ffff00)
+}
+.blu{
+    color: #FFFFFF;
+    font-size: 50px;
+    border: 2px solid #000000;
+    border-radius: 4px;
+    background: linear-gradient(0deg,#0086f9,#191970)
+}
+.red{
+    color: #FFFFFF;
+    font-size: 50px;
+    border: 2px solid #000000;
+    border-radius: 4px;
+    background: linear-gradient(0deg,#ff4500,#800000)
+}
+.gre{
+    color: #FFFFFF;
+    font-size: 50px;
+    border: 2px solid #000000;
+    border-radius: 4px;
+    background: linear-gradient(0deg,#32cd32,#2f4f4f)
+}
