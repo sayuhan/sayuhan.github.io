@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+    <head>
+        <meta charset="utf-8" />
+        <link rel="stylesheet" href="css/last.css">
+        <meta name="author" content="ToshiyukiHiruma" />
+        <meta name="keywords" content="html, css, javascript" />
+        <title>問い合わせ</title>
+    </head>
+    
+   <body>
+    <header>
+       <h1 class="blu">お問い合わせとミニゲーム</h1>
+        
+    </header>
+       
+
+    <h4>お問い合わせ</h4>
+
+    <div>
+        <h5>質問意見要望箱</h5>
+        <form action="#" method="get">
+            <p>
+                <label for="last-name">姓：</label>
+                <input type="text" name="lastname" id="last-name" />
+                <label>名：<input type="text" name="first" /></label>
+            </p>
+            <p>
+                <label for="lastname">姓：</label>
+                <input type="text" name="astname" id="lastname" placeholder="姓" required />
+
+            </p>
+            <p>
+                <input type="password" name="password" id="password" placeholder="パスワード" />
+            </p>
+            <p>
+                <input type="checkbox" name="agree" id="agree" checked />
+                <label for="agree">感想</label>
+                <input type="checkbox" name="agree" id="agree" checked />
+                <label for="agree">質問</label>
+                <input type="checkbox" name="agree" id="agree" checked />
+                <label for="agree">要望</label>
+
+                <input type="radio" name="think" id="think" value="think" />
+                <label for="think">感想</label>
+                <input type="radio" name="?" id="?" value="?" />
+                <label for="?">質問</label>
+                <input type="radio" name="want" id="want" value="want" />
+                <label for="want">要望</label>
+            </p>
+
+            <p>
+                <label><input type="radio" name="sibetu" value="female" />女性</label>
+                <label><input type="radio" name="sibetu" value="male" />男性</label>
+                <label><input type="radio" name="sibetu" value="other" />その他</label>
+            </p>
+            <p>
+                <label for="requests">メッセージ</label>
+                <textarea name="requests" id="requests" rows="10" cols="60"></textarea>
+            </p>
+            <input type="date" />
+            <!--日付-->
+            <input type="color" />
+            <input type="email" />
+            <input type="file" />
+            <p>
+                <input type="submit" value=" 送信する" />
+                <input type="reset" value="リセット" />
+                <input type="button" value="いいね" 　 />
+
+            </p>
+
+
+
+
+        </form>
+       <div>
+            <h2　id="title">じゃんけんプログラム</h2>
+           <h3>早速ゲームを始めるよ、次の三つのボタンから選んでね</h3>
+           <button type="button" onclick="guu" class="red">グー</button>
+           <button type="button" onclick="tyoki" class="blu">チョキ</button>
+           <button type="button" onclick="paa" class="gre">パー</button>
+       </div>
+       
+      
+       <script src="js/game.js"></script>
+    </body>
